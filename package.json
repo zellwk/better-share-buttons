@@ -1,0 +1,15 @@
+{
+  "name": "@zellwk/better-share-buttons",
+  "version": "1.0.0",
+  "description": "I created this repository because I want to make it easy to create share buttons for various social media platforms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "np --no-publish && npm publish"
+  },
+  "author": "Zell Liew <zellwk@gmail.com> (https://zellwk.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "np": "^7.6.1"
+  }
+}

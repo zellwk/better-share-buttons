@@ -1,0 +1,29 @@
+:root {
+  --share-button-padding: 0.5em 0.75em;
+  --base-share-icon-height: 1.5em; /* Set this to the line height */
+  --share-icon-height: var(
+    --base-share-icon-height
+  ); /* Change this so the icon looks good with the text */
+}
+
+[data-share-button] {
+  font: inherit;
+  display: flex;
+  align-itemns: center;
+  border: 0;
+  padding: var(--share-button-padding);
+}
+
+[data-share-button] svg {
+  box-sizing: content-box;
+  width: auto;
+  height: var(--share-icon-height);
+  padding-top: calc(
+    (var(--base-share-icon-height) - var(--share-icon-height)) / 2
+  );
+  margin-right: 0.5em;
+}
+
+[data-share-button] svg + * {
+  margin-top: 0; /* Prevents lobotomized owls from screwing up the margins */
+}

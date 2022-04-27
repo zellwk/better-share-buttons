@@ -1,0 +1,8 @@
+[data-share-button='twitter'] {
+  background: #1d9bf0;
+  color: white;
+}
+
+[data-share-button='twitter'] svg {
+  --share-icon-height: 1.2em;
+}
