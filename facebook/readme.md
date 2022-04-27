@@ -23,8 +23,6 @@ Import the Facebook SDK. Place this somewhere in the page you want to use the Fa
 ></script>
 ```
 
-Initialize the Facebook SDK with your `appID`.
-
 If you want to create customizable share dialog, you need to [create a Facebook app](https://developers.facebook.com/docs/development/create-an-app). This is painless so just go make one if you need to.
 
 Once you have one, you can initialize Facebook SDK with your `appID`.
