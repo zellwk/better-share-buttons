@@ -18,8 +18,8 @@ Right now this repository only supports Facebook and Twitter share buttons.
 
 Usage instructions for each share button are included in their respective folders.
 
-- [Facebook](./facebook/readme.md)
-- [Twitter](./twitter/readme.md)
+- [Facebook](./facebook/)
+- [Twitter](./twitter/)
 
 ## Contributing to this repository
 
